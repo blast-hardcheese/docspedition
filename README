@@ -1,0 +1,22 @@
+Docspedition
+
+What:   An all-in-one Documentation scraping utility
+
+Why:    It's easy to get caught up in what you think needs to be written,
+        ignoring what is already available at your fingertips.
+
+Contributions welcome!
+
+Goals:
+
+    - More docset spiders
+    - Central control script (docsped)
+        -u Update cache
+        -e Edit user config (Possibly a better interface for this?)
+            User config would define:
+                Docsets the user is interested in
+                Granularity of fetches (modules vs individual methods)
+                Operating Systems to suggest/ignore
+        -g Get result of new query
+        -m (Mark element as completed?)
+        -i (Mark element as ignored?)
